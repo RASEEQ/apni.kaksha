@@ -1,0 +1,142 @@
+
+
+          /*this is second*/
+
+
+body{
+    margin: 0px;
+}
+ nav{
+    height: 80px;
+    text-align: center;
+    display: flex;
+    background-color: #333;
+    
+}nav a{
+  padding-top: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+    
+}header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}section{
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+section:nth-child(even){
+    background-color: #ececec;
+}iframe{
+    padding: 0px 5px;
+}img{
+    padding: 0px 20px;
+}h2{
+    padding-bottom: 40px;
+}footer{
+    text-align: center;
+    display: flex;
+    background-color: #333;
+}
+
+footer a{
+    
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+} h4, p{
+    margin: 0px 130px;
+}
+.banner {
+    
+    display:  center ,inline-block;
+    color: blanchedalmond;
+    font-size: 50px;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background: linear-gradient(to right, yellow,blue,red);
+    -webkit-background-clip-: text;
+    /*-webkit-text-fill-color: transparent;*/
+    text-align: center;
+    
+}
+.margin-align-left{
+    margin-left: auto;
+}
+.menu-btn:hover{
+    background-color: white;
+    color: black;
+}
+section h2 span{
+    background: linear-gradient(to right, #f5d837, #bbb812);
+    padding: 10px 55px;
+    border-radius: 20px;
+    color: white;
+}
+
+  
+  .carousel-cell {
+    width: 66%;
+    
+    margin-right: 10px;
+    
+    border-radius: 5px;
+    
+  }.carousel-cell iframe{
+    width: 100%;
+    height: 400px;
+  }.profile-image{
+    border-radius: 50%;
+  }.profile-name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+  }.sm-handle a{
+    background-color: rgb(125 125 125/ 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 1.25em;
+  }.sm-handle a:hover{
+    background-color: rgb(30 30 30 / 25%);
+  }.sm-handle a i{
+    margin: 5px;
+  }.yt-handle{
+    color: #ff0000;
+  }.linkedin-handle{
+    color: #0c76a8;
+  }.insta-handle{
+    color: #dd2a7b;
+  }.about-us{
+    margin: 50px;
+  }.border{
+    margin: top 50px;
+    margin: 50px;
+    color: #26556a;
+  }
+
+@media  screen and (max-width: 700px) {
+    footer, nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }nav{
+      height: 35%;
+    }
+    .margin-align-left{
+        margin-left: 0;
+    }
+}
+
